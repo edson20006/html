@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio | Desarrollo Web</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <!-- Font Awesome para iconos (opcional pero recomendado) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <a href="#">Mi<span>Portafolio</span></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#sobre-mi">Sobre Mí</a></li>
+                    <li><a href="#proyectos">Proyectos</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- SECCIÓN 1: INICIO / HERO -->
+    <section id="inicio" class="hero">
+        <div class="container hero-content">
+            <h1>Hola, soy <span class="highlight">Ana García</span></h1>
+            <h2>Desarrolladora Web Creativa</h2>
+            <p>Transformo ideas en experiencias digitales únicas y funcionales</p>
+            <a href="#proyectos" class="btn">Ver mis proyectos</a>
+        </div>
+    </section>
+
+    <!-- SECCIÓN 2: SOBRE MÍ -->
+    <section id="sobre-mi" class="about">
+        <div class="container">
+            <h2 class="section-title">Sobre Mí</h2>
+            <div class="about-content">
+                <div class="about-img">
+                    <!-- Puedes reemplazar con tu propia imagen -->
+                    <img src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Ana García trabajando en su computadora">
+                </div>
+                <div class="about-text">
+                    <h3>Desarrolladora Web & Diseñadora UI</h3>
+                    <p>¡Hola! Soy Ana, una apasionada desarrolladora web con 3 años de experiencia creando sitios web atractivos y funcionales. Me especializo en HTML, CSS, JavaScript y frameworks modernos como React.</p>
+                    <p>Mi objetivo es combinar diseño y tecnología para crear experiencias digitales que no solo se vean bien, sino que también resuelvan problemas reales de los usuarios.</p>
+                    
+                    <div class="skills">
+                        <h4>Habilidades técnicas:</h4>
+                        <ul>
+                            <li><i class="fa-brands fa-html5"></i> HTML5</li>
+                            <li><i class="fa-brands fa-css3-alt"></i> CSS3</li>
+                            <li><i class="fa-brands fa-js"></i> JavaScript</li>
+                            <li><i class="fa-brands fa-react"></i> React</li>
+                        </ul>
+                    </div>
+                    
+                    <a href="#contacto" class="btn btn-secondary">Contáctame</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN 3: PROYECTOS DESTACADOS -->
+    <section id="proyectos" class="projects">
+        <div class="container">
+            <h2 class="section-title">Mis Proyectos</h2>
+            <div class="projects-grid">
+                
+                <!-- Proyecto 1 -->
+                <article class="project-card">
+                    <div class="project-img">
+                        <img src="https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Proyecto de tienda online">
+                    </div>
+                    <div class="project-info">
+                        <h3>Tienda Online "ModaViva"</h3>
+                        <p>E-commerce completo para tienda de ropa con carrito de compras, filtros y pasarela de pago.</p>
+                        <div class="project-tags">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <a href="#" class="project-link">Ver proyecto →</a>
+                    </div>
+                </article>
+
+                <!-- Proyecto 2 -->
+                <article class="project-card">
+                    <div class="project-img">
+                        <img src="https://images.pexels.com/photos/669615/pexels-photo-669615.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Aplicación del clima">
+                    </div>
+                    <div class="project-info">
+                        <h3>App del Clima "WeatherNow"</h3>
+                        <p>Aplicación web que muestra el clima en tiempo real usando API externa.</p>
+                        <div class="project-tags">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>API</span>
+                        </div>
+                        <a href="#" class="project-link">Ver proyecto →</a>
+                    </div>
+                </article>
+
+                <!-- Proyecto 3 -->
+                <article class="project-card">
+                    <div class="project-img">
+                        <img src="https://images.pexels.com/photos/1181279/pexels-photo-1181279.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Blog personal">
+                    </div>
+                    <div class="project-info">
+                        <h3>Blog "Viajero Experto"</h3>
+                        <p>Blog de viajes con diseño responsive, comentarios y sistema de búsqueda.</p>
+                        <div class="project-tags">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>Bootstrap</span>
+                        </div>
+                        <a href="#" class="project-link">Ver proyecto →</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN 4: CONTACTO -->
+    <section id="contacto" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contacto</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>¿Tienes un proyecto en mente?</h3>
+                    <p>¡Hablemos! Puedes contactarme a través de mis redes sociales o enviarme un correo directamente.</p>
+                    
+                    <div class="contact-details">
+                        <p><i class="fa-solid fa-envelope"></i> ana.garcia@email.com</p>
+                        <p><i class="fa-solid fa-phone"></i> +34 123 456 789</p>
+                        <p><i class="fa-solid fa-location-dot"></i> Madrid, España</p>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+                
+                <form class="contact-form">
+                    <input type="text" placeholder="Nombre completo" required>
+                    <input type="email" placeholder="Correo electrónico" required>
+                    <textarea rows="5" placeholder="Mensaje" required></textarea>
+                    <button type="submit" class="btn">Enviar mensaje</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Ana García - Todos los derechos reservados</p>
+            <p>Diseñado con <i class="fa-solid fa-heart" style="color: #ff6b6b;"></i> para el proyecto de portafolio</p>
+        </div>
+    </footer>
+</body>
+</html>
